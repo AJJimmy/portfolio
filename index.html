@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main>
+    <div class="container">
+        <div id="hero">
+        <header class="banner">
+        <div id="image-name">
+            <img src="assests/Aanuoluwa.jpg" alt="my picture" id="aanuoluwa"/>
+            <p>AJ JIMMY</p>
+        </div>
+            <nav id="navbar">
+                <ul class="nav">
+                    <li class="nav-key"><a href="#hero">HOME</a></li>
+                    <li class="nav-key"><a href="#about">ABOUT</a></li>
+                    <li class="nav-key"><a href="#projects">PROJECTS</a></li>
+                    <li class="nav-key"><a href="#contact">CONTACT</a></li>
+                </ul>   
+                    <button class="burger-menu" id="burger-menu">
+                        <ion-icon class="bars" name="menu-outline"></ion-icon>
+                    </button>
+            </nav>
+        </header>
+    <section class="scroll-container">
+        <div id="home">
+            <h1>HI, I'M AANUOLUWAPO ADEJIMI</h1>
+            <p id="home-writeup">Welcome to my digital playground!<br> I'm a passionate frontend developer
+                who is result-oriented and interested in building successful projects.<br></p>
+            <div id="buttons">
+            <a href="assests/my_cv.pdf" class="case-study" download="AANUOLUWAPO_ADEJIMI_CV">DOWNLOAD CV</a>
+            <a href="#projects" class="case-study">PROJECTS</a>
+            </div>
+
+            <div class="home-socials">
+                <a href="https://www.x.com/jhenlayor" target="_blank"><img src="assests/x.png" alt="X" loading="lazy" class="home-icon"/></a>
+                <a href="https://www.github.com/ajjimmy" target="_blank"><img src="assests/github.png" alt="Github" loading="lazy" class="home-icon"/></a>
+                <a href="https://www.linkedin.com/in/aanuoluwapo-adejimi-480642155" target="_blank"><img src="assests/linkedin.png" alt="Linkedin" loading="lazy" class="home-icon"/></a> 
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="scroll-container">
+        <div id="about" class="scroll-element js-scroll slide-left">
+            <h2>ABOUT ME</h2>
+            <hr class="sub-mark">
+            <p>Here you will find more information about me,<br> what I do, and my current skills mostly in<br> terms
+                of web development.
+            </p>
+            <div id="more">
+                <div id="me">
+                <h3>Get to know me!</h3>
+                <p>I'm a <strong>Frontend Developer</strong> building and managing<br> the <strong>Front-end of Websites and Web Applications</strong> 
+                that leads<br> to the success of the overall product. Check out some<br> of my work in the <strong>Projects</strong> section.<br><br> 
+                I'm open to <strong>Job</strong> opportunities where I can contribute,<br> learn and grow.<br> If you have a good opportunity
+                that matches my skills and experience, don't hesistate to contact me.
+                </p>
+                <a href="#contact" class="case-study">CONTACT</a>
+                </div>
+                <div id="skills-general">
+                    <h3>My Skills</h3>
+                    <div id="skills">
+                    <div id="html" class="skills">HTML</div>
+                    <div id="css" class="skills">CSS</div>
+                    <div id="javascript" class="skills">JavaScript</div>
+                    <div id="git" class="skills">GIT</div>
+                    <div id="github" class="skills">Github</div>
+                    <div id="responsive" class="skills">Responsive design</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="scroll-container">
+        <div id="projects" class="scroll-element js-scroll slide-left">
+            <h2>PROJECTS</h2>
+            <hr class="sub-mark">
+            <p>Here you will find some of the projects that I created with each project containing
+                its own live demo.
+            </p>
+            <div id="fitness"  class="my-projects fade-in">
+                <div class="project-card">
+                <img src="assests/workit-project.jpeg" alt="workit_image" class="project-img"/>
+                </div>
+                <div id="fitness-writeup" class="project-writeup">
+                    <h3>Workit</h3>
+                    <p>Workit is a women health fitness page<br> focusing on connecting users with qualified<br>
+                    physical therapists for medical assistance.<br> Workit was built using HTML5, CSS3<br> and JavaScript.</p>
+                    <a href="#" class="case-study">LIVE DEMO</a>
+                </div>
+            </div>
+
+            <div id="renthomes" class="my-projects fade-in">
+                <div class="project-card">
+                <img src="assests/renthome-project.jpeg" alt="renthome-image" class="project-img"/>
+                </div>
+                <div id="renthomes-writeup" class="project-writeup">
+                    <h3>Renthomes</h3>
+                    <p>I built renthomes using the<br> beautiful UI designed by Amenai Sabuwala<br> as an inspiration. It was
+                        a great experience<br> for me to build the entire frontend.
+                    </p>
+                    <a href="#" class="case-study">LIVE DEMO</a>
+                </div>
+            </div>
+
+            <div id="myfolio" class="my-projects fade-in">
+                <div class="project-card">
+                <img src="assests/myfolio-project.jpeg" alt="myfolio-image" class="project-img"/>
+                </div>
+                <div id="myfoliio-writeup" class="project-writeup">
+                    <h3>MyFolio</h3>
+                    <p>MyFolio is a visually appealing showcasing<br> my skills and projects built using<br> the frontend tools
+                         I know.</p>
+                    <a href="#" class="case-study">LIVE DEMO</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="scroll-container">
+        <div id="contact" class="scroll-element js-scroll slide-left">
+            <h2>CONTACT</h2>
+            <hr class="sub-mark">
+            <p>Feel free to contact me by submitting the form below and<br> I will get back to you
+                as soon as possible
+            </p>
+            <div id="form-zone">
+                <form action="https://formspree.io/f/xrgnvogq" id="form" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" required/>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="sender-email" placeholder="Enter Your Email"  required/>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Enter Your Message" rows="7" cols="40"></textarea>
+
+                    <input type="submit" value="SUBMIT" class="case-study">
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+        <div id="footer">
+            <div id="sub-footer">
+            <div id="left-footer">
+                <h4>AJ JIMMY</h4>
+                <p>A passionate frontend developer weaving<br> pixels into captivating web experiences. </p>
+            </div>
+            <div id="social-links">
+                <h4>SOCIAL</h4>
+                <div class="social-container">
+                <ul class="socials">
+                    <li class="item"><a href="https://www.x.com/jhenlayor"><img src="assests/x.png" width="40px" height="40px" class="icon"></a></li>
+                    <li class="item"><a href="https://www.github.com/ajjimmy"><img src="assests/github.png" class="icon"></a></li>
+                    <li class="item"><a href="https://www.linkedin.com/in/aanuoluwapo-adejimi-480642155"><img src="assests/linkedin.png" class="icon"></a></li>
+
+                </ul>
+                </div>
+            </div>
+            </div>
+            <hr>
+            <div id="last-footer">
+            <p>&copy; Copyright 2024. Made by Aanuoluwapo Adejimi</p>
+            </div>
+        </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
