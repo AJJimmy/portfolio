@@ -43,7 +43,7 @@ navKey.forEach((link) => link.addEventListener("click", () => {
 document.addEventListener("scroll", onScroll);
 
 
-/*
+
 
 const scrollElements = document.querySelectorAll(".js-scroll");
 
@@ -85,4 +85,4 @@ window.addEventListener("scroll", () => {
     handleScrollAnimation();
 });
 
-*/
+
